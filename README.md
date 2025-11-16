@@ -38,10 +38,22 @@ Prior to beginning the analysis, a variety of checks were conducted for quality 
 
 ## Executive Summary
 **Overview of Findings**
+
 The RFM analysis highlights three critical patterns in customer behaviour. First, the business has a strong and reliable core of 61 Best Customers, who consistently purchase at high frequency and generate substantial revenue. Second, 57 customers fall into the Need Attention group, indicating a sizeable portion of the customer base that once engaged well but has since become inactive—representing a clear opportunity for retention-focused campaigns. Finally, only 13 customers qualify as At Risk, showing very low commercial impact and limited potential for reactivation, suggesting that targeted marketing spend should not be directed toward this group.
 
 These findings collectively show that while the business benefits from a healthy high-value cohort, it also faces a meaningful risk of losing mid-value customers who could be recovered with timely intervention. The segmentation therefore provides a clear roadmap for prioritising loyalty, reactivation, and cost-efficient marketing efforts.
 
 **Best Customers**
-- The Best Customers segment consists of 61 customers, all achieving RFM scores of 13 or higher.
+
+**Need Attention**
+
+**At Risk**
+
+## Recommendations
+
+Based on the uncovered insights, the following reccomendations have been provided:
+
+- Offer targeted upsell bundles to the "Best Customers" for the products they already buy most frequently — e.g., multi-poster sets, bulk business card packs, canvas upgrades — to increase average order value.
+
+- Do not include "At Risk" customers in paid promotions or discounts. Place them into one low-cost quarterly newsletter summarising seasonal promotions — enough to maintain brand awareness without draining budget.
 - 
