@@ -45,15 +45,38 @@ These findings collectively show that while the business benefits from a healthy
 
 **Best Customers**
 
+- There are 61 best customers having an RFM score ≥ 13 out of 15, meaning their combined recency, frequency, and monetary value places them among the highest-value customers.
+
+<p align="center"><img width="770" height="897" alt="Screenshot 2025-11-18 at 3 36 23 PM" src="https://github.com/user-attachments/assets/b956d2f7-3de8-4617-a677-10e6e388237d" /></p>
+
+- 46% (28 customers) in this segment made purchases more recently than 80% of the entire customer base. A further 38% (23 customers) purchased more recently than 60% of customers, and 16% (10 customers) purchased more recently than 40% of customers. The Best Customer segment is composed almost entirely of highly recent purchasers.
+  
+- 89% (54 customers) in this segment made purchases more frequently than 80% of the customer base, while the remaining 11% (7 customers) purchased more frequently than 60% of customers. The entire Best Customer segment consistently falls within the highest-frequency tiers, demonstrating strong loyalty and consistent engagement.
+
+- 74% (45 customers) spend more than 80% of all customers, 25% (15 customers) spend more than 60% of customers, and 5% (1 customer) spend more than 40% of customers. The Best Customer segment is largely composed of high-value spenders who consistently fall within the upper monetary tiers of the entire customer base.
+
 **Need Attention**
+
+- There are 57 Need Attention customers with an RFM score between 4 and 6 out of 15, indicating that their combined recency, frequency, and monetary performance places them in a low-engagement tier.
+
+<p align="center"><img width="713" height="822" alt="Screenshot 2025-11-18 at 3 44 33 PM" src="https://github.com/user-attachments/assets/1382b4dd-6835-4fda-a65c-de20b37db224" /></p>
+
+- 5% (3 customers) in this segment purchased more recently than 60% of the customer base, 16% (9 customers) purchased more recently than 40% of customers, 37% (21 customers) purchased more recently than 20% of customers, and 42% (24 customers) purchased more recently than only 0–20% of customers, indicating that need attention customers are overwhelmingly long-inactive and at early risk of churn.
+
+- 4% (2 customers) purchase more frequently than 40% of the customer base, 70% (40 customers) purchase more frequently than 20–40% of customers, and 26% (15 customers) purchase more frequently than only 20% of customers, indicating that the segment predominantly consists of low-frequency buyers with weak purchasing habits.
+
+- 7% (4 customers) spend more than 60% of all customers, 32% (18 customers) spend more than 40% of customers, and 61% (35 customers) spend more than 20% of customers. The Need Attention segment is predominantly composed of low-spending customers with limited revenue contribution.
 
 **At Risk**
 
+- There are 13 At Risk customers with an RFM score of 3 out of 15, indicating that their combined recency, frequency, and monetary performance places them in the lowest engagement tier, characterised by very infrequent purchases, long periods of inactivity, and minimal spending.
+
+<p align="center"><img width="1052" height="333" alt="Screenshot 2025-11-18 at 3 48 48 PM" src="https://github.com/user-attachments/assets/7f9d04c3-5aa7-45d6-92d0-63affa9fb36c" /></p>
+
+- 100% (13 customers) in this segment fall within the bottom 20% of the customer base for recency, indicating they have gone the longest without making a purchase and represent the most inactive group in the dataset.
+
+- 100% (13 customers) in this segment fall within the bottom 20% of the customer base for purchase frequency, meaning they purchase less often than almost all other customers and show no signs of consistent or repeat purchasing behaviour.
+
+- 100% (13 customers) in this segment fall within the bottom 20% of the customer base for monetary value, meaning they spend less than almost all other customers and consistently contribute the lowest revenue levels in the dataset.
+
 ## Recommendations
-
-Based on the uncovered insights, the following reccomendations have been provided:
-
-- Offer targeted upsell bundles to the "Best Customers" for the products they already buy most frequently — e.g., multi-poster sets, bulk business card packs, canvas upgrades — to increase average order value.
-
-- Do not include "At Risk" customers in paid promotions or discounts. Place them into one low-cost quarterly newsletter summarising seasonal promotions — enough to maintain brand awareness without draining budget.
-- 
