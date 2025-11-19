@@ -29,8 +29,7 @@ The dataset includes the following fields:
 - **OrderValue:** Specifies the total monetary amount of the order, measured in Indian Rupees (₹).
 
 The image below displays a snippet of the dataset.
-<p align="center"><img width="577" height="471" alt="data fields " src="https://github.com/user-attachments/assets/9fa75124-9a3f-4f63-bbeb-f34c00a3a172" />
-</p>
+<p align="center"><img width="576" height="559" alt="Screenshot 2025-11-19 at 2 57 46 PM" src="https://github.com/user-attachments/assets/383e3b71-30d0-4eb4-b6a6-79ed92c248e1" /></p>
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. These included identifying duplicate OrderID values, checking for blanks in critical fields (OrderDate, OrderValue, CustomerID), and verifying the earliest and latest transaction dates to confirm the accuracy of the analysis window.
 
