@@ -1,6 +1,4 @@
-# RFM Analysis — Custom Printing Business
-
-## Project Background
+# Project Background
 PrintPlus Studios, established in 2019, is a growing e-commerce company specialising in personalised print products such as canvas artwork, posters, flyers, and business cards. Operating entirely online, the company serves customers through its website, offering fast turnaround times and fully customisable design options.
 
 The business generates substantial amounts of data from its daily transactions, customer interactions, and product sales. However, much of this information has been historically underutilised. This project leverages Excel-based analysis to transform raw order data into meaningful insights using an RFM (Recency, Frequency, Monetary) framework. By doing so, it uncovers key customer segments and provides actionable recommendations aimed at improving customer retention, marketing effectiveness, and long-term commercial performance.
@@ -13,9 +11,9 @@ The goal is to answer three key business questions:
 
 **3. Which segments are safe to ignore?**
 
-All the Excel formulas used for the analysis can be found [here](https://github.com/user-attachments/files/23559866/Formulas_RFMAnalysis.docx).
+All the Excel formulas used for the analysis can be found [here](https://docs.google.com/document/d/1EiBpf92cHtFZItG940Wg9vRaDNCjANE7QgxiXgehruI/edit?usp=sharing).
 
-## Data Overview & Initial Checks
+# Data Overview & Initial Checks
 PrintPlus Studios transaction-level dataset contains one year of customer order history with a total row count of 1000 records.
 
 The dataset includes the following fields:
@@ -36,47 +34,73 @@ The image below displays a snippet of the dataset.
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. These included identifying duplicate OrderID values, checking for blanks in critical fields (OrderDate, OrderValue, CustomerID), and verifying the earliest and latest transaction dates to confirm the accuracy of the analysis window.
 
-## Executive Summary
-**Overview of Findings**
+# Executive Summary
+### Overview of Findings
 
-The RFM analysis highlights three critical patterns in customer behaviour. First, the business has a strong and reliable core of 61 Best Customers, who consistently purchase at high frequency and generate substantial revenue. Second, 57 customers fall into the Need Attention group, indicating a sizeable portion of the customer base that once engaged well but has since become inactive—representing a clear opportunity for retention-focused campaigns. Finally, only 13 customers qualify as At Risk, showing very low commercial impact and limited potential for reactivation, suggesting that targeted marketing spend should not be directed toward this group.
+The RFM analysis highlights three critical patterns in customer behaviour. First, the business has a strong and reliable core of 61 best customers, who consistently purchase at high frequency and generate substantial revenue. Second, 57 customers fall into the need attention group, indicating a sizeable portion of the customer base that once engaged well but has since become inactive—representing a clear opportunity for retention-focused campaigns. Finally, only 13 customers qualify as at risk, showing very low commercial impact and limited potential for reactivation, suggesting that targeted marketing spend should not be directed toward this group.
 
 These findings collectively show that while the business benefits from a healthy high-value cohort, it also faces a meaningful risk of losing mid-value customers who could be recovered with timely intervention. The segmentation therefore provides a clear roadmap for prioritising loyalty, reactivation, and cost-efficient marketing efforts.
 
-**Best Customers**
+### Best Customers:
 
 - There are 61 best customers having an RFM score ≥ 13 out of 15, meaning their combined recency, frequency, and monetary value places them among the highest-value customers.
 
 <p align="center"><img width="770" height="897" alt="Screenshot 2025-11-18 at 3 36 23 PM" src="https://github.com/user-attachments/assets/b956d2f7-3de8-4617-a677-10e6e388237d" /></p>
 
-- 46% (28 customers) in this segment made purchases more recently than 80% of the entire customer base. 38% (23 customers) purchased more recently than 60% of customers, and 16% (10 customers) purchased more recently than 40% of customers. The Best Customer segment is composed largely of highly recent purchasers.
-  
-- 89% (54 customers) in this segment made purchases more frequently than 80% of the customer base, while the remaining 11% (7 customers) purchased more frequently than 60% of customers. The entire best customer segment consistently falls within the highest-frequency tiers, demonstrating strong loyalty and repeat buying behaviour.
+- On average, they last purchased around 48 days ago, indicating very recent engagement compared with the wider customer base.
 
-- 74% (45 customers) in this segment spend more than 80% of all customers, 25% (15 customers) spend more than 60% of customers, and 5% (1 customer) spend more than 40% of customers. The best customer segment is largely composed of high-value spenders who  who generate a significant share of overall revenue.
+- 46% (28 customers) in this segment made purchases more recently than 80% of the entire customer base. 38% (23 customers) purchased more recently than 60% of customers, and 16% (10 customers) purchased more recently than 40% of customers. The best customer segment is composed largely of highly recent purchasers.
 
-**Need Attention**
+- Best customers typically make around 6 purchases per year, demonstrating strong repeat-buying behaviour and strong loyalty.
 
-- There are 57 Need Attention customers with an RFM score between 4 and 6 out of 15, indicating that their combined recency, frequency, and monetary performance places them in a low-engagement tier.
+- 89% (54 customers) in this segment made purchases more frequently than 80% of the customer base, while the remaining 11% (7 customers) purchased more frequently than 60% of customers. The entire best customer segment consistently falls within the highest-frequency tiers.
+
+- They spend an average of $110.88, placing them among the highest contributors to total revenue. They collectively contribute ≈39% of total revenue.
+
+- 74% (45 customers) in this segment spend more than 80% of all customers, 25% (15 customers) spend more than 60% of customers, and 5% (1 customer) spend more than 40% of customers. The best customer segment is largely composed of high-value spenders who generate a significant share of overall revenue.
+
+### Need Attention:
+
+- There are 57 need attention customers with an RFM score between 4 and 6 out of 15, indicating that their combined recency, frequency, and monetary performance places them in a low-engagement tier.
 
 <p align="center"><img width="713" height="822" alt="Screenshot 2025-11-18 at 3 44 33 PM" src="https://github.com/user-attachments/assets/1382b4dd-6835-4fda-a65c-de20b37db224" /></p>
 
-- 5% (3 customers) in this segment purchased more recently than 60% of the customer base, 16% (9 customers) purchased more recently than 40% of customers, 37% (21 customers) purchased more recently than 20% of customers, and 43% (24 customers) purchased less recently than 80% of customers, placing them in the bottom 20% for recency. The Need Attention segment is characterised by a substantial share of customers whose last purchase occurred a significant time ago, indicating declining engagement and an elevated risk of churn.
+- On average, they last purchased 170 days ago, showing that this group has not interacted with the business for a significant period and is trending toward disengagement.
+
+- 5% (3 customers) in this segment purchased more recently than 60% of the customer base, 16% (9 customers) purchased more recently than 40% of customers, 37% (21 customers) purchased more recently than 20% of customers, and 43% (24 customers) purchased less recently than 80% of customers, placing them in the bottom 20% for recency. The need attention segment is characterised by a substantial share of customers whose last purchase occurred a significant time ago, indicating declining engagement and an elevated risk of churn.
+
+- They typically make around 2 purchases per year, indicating weak repeat-buying behaviour and inconsistent engagement
 
 - 4% (2 customers) purchase more frequently than 40% of the customer base, 70% (40 customers) purchase more frequently than 20% of customers, and 26% (15 customers)  purchase less frequently than 80% of customers, placing them in the bottom 20% for purchase frequency. The need attention segment is dominated by customers with low purchase frequency, indicating limited repeat-buying behaviour and weaker purchasing consistency.
 
-- 7% (4 customers) in this segment spend more than 40% of the customer base, 32% (18 customers) spend more than 20% of customers, and 61% (35 customers) spend less than 80% of customers, placing them in the bottom 20% for total spending. The Need Attention segment is predominantly composed of low-spending customers with limited revenue contribution.
+- They spend an average of £23.65 and collectively contribute ≈8% of total revenue, highlighting their limited financial impact on the business.
 
-**At Risk**
+- 7% (4 customers) in this segment spend more than 40% of the customer base, 32% (18 customers) spend more than 20% of customers, and 61% (35 customers) spend less than 80% of customers, placing them in the bottom 20% for total spending. The need attention segment is predominantly composed of low-spending customers with limited revenue contribution.
 
-- There are 13 At Risk customers with an RFM score of 3 out of 15, indicating that their combined recency, frequency, and monetary performance places them in the lowest engagement tier, characterised by very infrequent purchases, long periods of inactivity, and minimal spending.
+### At Risk:
+
+- There are 13 at risk customers with an RFM score of 3 out of 15, indicating that their combined recency, frequency, and monetary performance places them in the lowest engagement tier, characterised by very infrequent purchases, long periods of inactivity, and minimal spending.
 
 <p align="center"><img width="1052" height="333" alt="Screenshot 2025-11-18 at 3 48 48 PM" src="https://github.com/user-attachments/assets/7f9d04c3-5aa7-45d6-92d0-63affa9fb36c" /></p>
 
+- On average, they last purchased 284 days ago, showing prolonged inactivity.
+
 - 100% (13 customers) in this segment purchased less recently than 80% of the customer base, placing all of them in the bottom 20% for recency. The at risk segment has been inactive for a long period and shows a high likelihood of disengagement.
+
+- At risk customers make an average of 1 purchase per year, indicating extremely limited engagement and minimal repeat-buying behaviour.
 
 - 100% (13 customers) in this segment purchase less frequently than 80% of the customer base, placing them in the bottom 20% for purchase frequency. The at risk segment reflects consistently low repeat-buying behaviour, signalling weak loyalty and limited interaction with the business.
 
+- They spend an average of £10.67 and collectively contribute only ≈0.8% of total revenue, underscoring their very low overall financial impact on the business.
+
 - 100% (13 customers) in this segment spend less than 80% of the customer base, placing them in the bottom 20% for total spending. The at risk segment contributes the lowest revenue levels in the dataset.
 
-## Recommendations
+# Recommendations
+
+Based on the uncovered insights, the following recommendations have been provided:
+
+- Invest in a VIP loyalty programme exclusively for best customers, offering exclusive benefits such as priority printing, premium templates, and meaningful loyality discounts. This segment generates ≈39% of revenue, so investing in them is highly profitable due to their strong repeat-purchase behaviour.
+
+- Deploy a targeted re-engagement campaign with a limited-time incentive, such as 10% off or free shipping, aimed solely at need attention customers who previously purchased ≈2 times/year and could be reactivated at relatively low cost.
+
+- Exclude at risk customers from all paid marketing or discount-heavy campaigns, as they contribute <1% of revenue and show almost no likelihood of reactivation. Excluding them from campaigns prevents marketing waste and ensures budget is focused on profitable segments.
