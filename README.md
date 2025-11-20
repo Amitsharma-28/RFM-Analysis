@@ -104,6 +104,6 @@ Based on the uncovered insights, the following recommendations have been provide
 
 - Invest in a VIP loyalty programme exclusively for best customers, offering exclusive benefits such as priority printing and premium templates. This segment generates ≈39% of revenue, so investing in them is highly profitable due to their strong repeat-purchase behaviour.
 
-- Deploy a targeted re-engagement campaign with a limited-time incentive, such as 10% off or free shipping, aimed solely at need attention customers who previously purchased ≈2 times/year and could be reactivated at relatively low cost.c
+- Deploy a targeted re-engagement campaign with a limited-time incentive, such as 10% off or free shipping, aimed solely at need attention customers who previously purchased ≈2 times/year and could be reactivated at relatively low cost.
 
 - Exclude at risk customers from all paid marketing campaigns, as they contribute <1% of revenue and show almost no likelihood of reactivation. Excluding them from campaigns prevents marketing waste and ensures budget is focused on profitable segments.
