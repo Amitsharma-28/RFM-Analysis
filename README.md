@@ -1,15 +1,17 @@
 # Project Background
-PrintPlus Studios, established in 2019, is a growing e-commerce company specialising in personalised print products such as canvas artwork, posters, flyers, and business cards. Operating entirely online, the company serves customers through its website, offering fast turnaround times and fully customisable design options.
+PrintPlus Studios, established in 2019, is a growing e-commerce company specialising in personalised print products such as business cards, canvas prints, posters, flyers, photo books, and greeting cards. Operating entirely online, the company serves customers through its website, offering fully customisable design options.
 
-The business generates substantial amounts of data from its daily transactions, customer interactions, and product sales. However, much of this information has been historically underutilised. This project leverages Excel-based analysis to transform raw order data into meaningful insights using an RFM (Recency, Frequency, Monetary) framework. By doing so, it uncovers key customer segments and provides actionable recommendations aimed at improving customer retention, marketing effectiveness, and long-term commercial performance.
+The business generates substantial amounts of data from its daily transactions, customer interactions, and product sales. However, much of this information has been historically underutilised. This project leverages Excel-based analysis to transform raw order data into meaningful insights using an RFM (Recency, Frequency, Monetary) framework. By doing so, it uncovers key customer segments and produces actionable recommendations to guide customer retention strategies, optimise marketing efforts, and improve long-term commercial performance.
 
 The goal is to answer three key business questions:
 
-**1. Who are the best customers?**  
+**1. Who are PrintPlus Studios’ best customers?**  
 
-**2. Who needs a retention campaign?**  
+**2. Which customers should be targeted with a retention campaign?**  
 
-**3. Which segments are safe to ignore?**
+**3. Which customers can PrintPlus Studios safely exclude from paid campaigns?**
+
+The analysis categorises customers using an RFM framework, where customers who purchased most recently, most frequently, and generated the highest monetary value are classified as the best customers, and those who purchased long ago, only once, or spent very little are classified as the lowest-value customers.
 
 All the Excel formulas used for the analysis can be found [here](https://docs.google.com/document/d/1EiBpf92cHtFZItG940Wg9vRaDNCjANE7QgxiXgehruI/edit?usp=sharing).
 
@@ -24,9 +26,9 @@ The dataset includes the following fields:
 
 - **OrderDate:** Indicates the date the purchase was made.
 
-- **ProductType:** Indicates the type of printed product purchased.
+- **ProductType:** Indicates the type of product purchased.
 
-- **OrderValue:** Specifies the total monetary amount of the order, measured in Indian Rupees (₹).
+- **OrderValue:** Specifies the total monetary amount of the order, measured in United States Dollar ($).
 
 The image below displays a snippet of the dataset.
 <p align="center"><img width="576" height="559" alt="Screenshot 2025-11-19 at 2 57 46 PM" src="https://github.com/user-attachments/assets/383e3b71-30d0-4eb4-b6a6-79ed92c248e1" /></p>
@@ -36,9 +38,11 @@ Prior to beginning the analysis, a variety of checks were conducted for quality 
 # Executive Summary
 ### Overview of Findings
 
-The RFM analysis highlights three critical patterns in customer behaviour. First, the business has a strong and reliable core of 61 best customers, who consistently purchase at high frequency and generate substantial revenue. Second, 57 customers fall into the need attention group, indicating a sizeable portion of the customer base that once engaged well but has since become inactive—representing a clear opportunity for retention-focused campaigns. Finally, only 13 customers qualify as at risk, showing very low commercial impact and limited potential for reactivation, suggesting that targeted marketing spend should not be directed toward this group.
+The RFM analysis grouped customers into five categories: Best Customers, Loyal Customers, Potential Loyal Customers, Need Attention, and At Risk.
 
-These findings collectively show that while the business benefits from a healthy high-value cohort, it also faces a meaningful risk of losing mid-value customers who could be recovered with timely intervention. The segmentation therefore provides a clear roadmap for prioritising loyalty, reactivation, and cost-efficient marketing efforts.
+The analysis revealed a strong top tier of 61 Best Customers, who purchase frequently, have spent the most, and remain highly engaged with the business. This group represents the company’s most valuable customers and contributes the largest share of total revenue. A substantial 57 customers fell into the Need Attention segment, showing noticeable declines in recency, frequency, and spending. A very small group of 13 customers were classified as At Risk, characterised by long periods of inactivity, extremely low purchase frequency, and minimal spend.
+
+Together, these segments highlight where PrintPlus Studios should invest in loyalty-building, where retention efforts should be directed, and where marketing spend can be reduced to improve efficiency and profitability.
 
 ### Best Customers:
 
@@ -98,8 +102,8 @@ These findings collectively show that while the business benefits from a healthy
 
 Based on the uncovered insights, the following recommendations have been provided:
 
-- Invest in a VIP loyalty programme exclusively for best customers, offering exclusive benefits such as priority printing, premium templates, and meaningful loyality discounts. This segment generates ≈39% of revenue, so investing in them is highly profitable due to their strong repeat-purchase behaviour.
+- Invest in a VIP loyalty programme exclusively for best customers, offering exclusive benefits such as priority printing and premium templates. This segment generates ≈39% of revenue, so investing in them is highly profitable due to their strong repeat-purchase behaviour.
 
-- Deploy a targeted re-engagement campaign with a limited-time incentive, such as 10% off or free shipping, aimed solely at need attention customers who previously purchased ≈2 times/year and could be reactivated at relatively low cost.
+- Deploy a targeted re-engagement campaign with a limited-time incentive, such as 10% off or free shipping, aimed solely at need attention customers who previously purchased ≈2 times/year and could be reactivated at relatively low cost.c
 
-- Exclude at risk customers from all paid marketing or discount-heavy campaigns, as they contribute <1% of revenue and show almost no likelihood of reactivation. Excluding them from campaigns prevents marketing waste and ensures budget is focused on profitable segments.
+- Exclude at risk customers from all paid marketing campaigns, as they contribute <1% of revenue and show almost no likelihood of reactivation. Excluding them from campaigns prevents marketing waste and ensures budget is focused on profitable segments.
