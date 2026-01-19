@@ -13,7 +13,7 @@ The goal is to answer three key business questions:
 
 The analysis categorises customers using an RFM framework, where customers who purchased most recently, most frequently, and generated the highest monetary value are classified as the best customers, and those who purchased long ago, only once, or spent very little are classified as the lowest-value customers.
 
-All the Excel formulas used for the analysis can be found [here](https://docs.google.com/document/d/1EiBpf92cHtFZItG940Wg9vRaDNCjANE7QgxiXgehruI/edit?usp=sharing).
+All the Excel formulas used for the analysis can be found [here](https://docs.google.com/document/d/11wYtmhPXSS-ClJ5QhHnWWfoReHPZVQd5/edit?usp=sharing&ouid=102165638531054537510&rtpof=true&sd=true).
 
 # Data Overview & Initial Checks
 PrintPlus Studios transaction-level dataset contains one year of customer order history with a total row count of 1000 records.
